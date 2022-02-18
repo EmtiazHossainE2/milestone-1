@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    margin-bottom: 40px;
+}
+.author{
+    color: orange;
+}
+.flexible-area{
+    display: flex;
+    margin-bottom: 60px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 40px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: #fff;
+    background: linear-gradient( rgb(179, 142, 56), red);
+    border-radius: 5px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* experiences-area */
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 220px;
+    margin-bottom: 100px;
+}
+.experiences-item{
+    box-shadow: 10px 10px 50px #b6b3b3;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+#full-stack-experiences{
+    border-left: 5px solid;
+    border-image: linear-gradient( tomato , orange );
+    border-image-slice: 1;
+}
+#baby-experiences{
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(138, 44, 44), green );
+    border-image-slice: 1;
+}
+/* Footer */
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: indianred;
+    font-size: 20px;
+}
